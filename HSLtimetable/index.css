@@ -1,0 +1,43 @@
+body {
+    background-image: url("city-transit-map.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(4, 16, 27);
+    color: white;
+    font-family: 'Abel', sans-serif;
+    padding: 1.5%;
+    margin-top: 3%;
+    margin-left: 13%;
+    margin-right: 13%;
+    border-radius: 15px;
+    font-size: 45px;
+    opacity: 0.95;
+}
+
+th {
+    text-decoration: underline;
+}
+
+th,
+td {
+    font-size: 30px;
+    padding: 15px 40px 15px 40px;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(4, 16, 27);
+    margin: 4% 20% 15% 20%;
+    border-radius: 20px;
+    font-family: 'Open Sans', sans-serif;
+    opacity: 0.9;
+    color: white;
+}
