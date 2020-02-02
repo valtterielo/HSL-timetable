@@ -8,7 +8,7 @@ function getData() {
             body: JSON.stringify({
                 query: `
         {
-            stop(id: "HSL:1050120") {
+            stop(id: "HSL:1130115") {
               name
                 stoptimesWithoutPatterns {
                 scheduledArrival
