@@ -31,10 +31,10 @@ function getData() {
             //creating array from retrieved json data
             let myArr = JSON.parse(JSON.stringify(data.data.stop.stoptimesWithoutPatterns));
 
-            //screen can't show more than five different arrival times
+            //screen can't show more than four different arrival times
             let printTimes = myArr.length;
-            if (printTimes >= 5) {
-                printTimes = 5
+            if (printTimes >= 4) {
+                printTimes = 4
             }
             //making sure that the html table is empty before sending in new values
             $(".data").empty()
