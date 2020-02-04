@@ -1,5 +1,5 @@
 # HSL-timetable
-Allows to fetch arrival times from a chosen HSL bus stop
+Allows user to fetch arrival times from a chosen HSL bus stop
 
 1. Select a stop you want from reittiopas.hsl.fi
 2. Click the name of the stop
